@@ -65,12 +65,12 @@ if add_selectbox == 'Introduction':
     
     st.write('What could have been done to advance the song to the top of the charts?')
     
-    image = Image.open('global.PNG').convert('RGB')
+    image = Image.open('global.png').convert('RGB')
     st.image(image, caption='', width=200, height=200)
     
     st.write('When is the best time to release the song?')
     
-    image = Image.open('tophit.PNG').convert('RGB')
+    image = Image.open('tophit.png').convert('RGB')
     st.image(image, caption='', width=200, height=200)
     
 #     st.write('<b>MARKET:</b>', unsafe_allow_html=True)
@@ -208,7 +208,7 @@ elif add_selectbox == "Predicting our Client's Song":
     
     st.write('<b>The model predicted the song “Oo” as R&B with a probability share of 24%</b>', unsafe_allow_html=True)
     
-    image = Image.open('probability.PNG').convert('RGB')
+    image = Image.open('probability.png').convert('RGB')
     st.image(image, caption='', width=500, height=500)
 
 
@@ -222,17 +222,17 @@ elif add_selectbox == "Hypothesis":
     
     st.write('<b>Certain genres are more popular for different times of the year.</b>', unsafe_allow_html=True)
     
-    image = Image.open('hypothesis.PNG').convert('RGB')
+    image = Image.open('hypothesis.png').convert('RGB')
     st.image(image, caption='', width=600, height=200)
     
     st.write('<b>Time Series of Competitor STREAMS</b>', unsafe_allow_html=True)
     
-    image = Image.open('competitorstream.PNG').convert('RGB')
+    image = Image.open('competitorstream.png').convert('RGB')
     st.image(image, caption='', width=600, height=200)
 
     st.write('<b>Time Series of Competitor POSITION</b>', unsafe_allow_html=True)
     
-    image = Image.open('competitorpos.PNG').convert('RGB')
+    image = Image.open('competitorpos.png').convert('RGB')
     st.image(image, caption='', width=600, height=200)
 
 
@@ -246,7 +246,7 @@ elif add_selectbox == "Promoting our Client's Song":
     
     st.write('<b>We generated a playlist that includes our client’s song as well as related songs that are in the top charts!</b>', unsafe_allow_html=True)
     
-    image = Image.open('spotify.PNG').convert('RGB')
+    image = Image.open('spotify.png').convert('RGB')
     st.image(image, caption='', width=600, height=600)
 
 
@@ -256,7 +256,7 @@ elif add_selectbox == "Promoting our Client's Song":
 elif add_selectbox == 'Recommendations':
     st.subheader('Recommendations')
     st.write('-----------------------------')
-    st.markdown("<ul>"                "<li>AUGUST as our suggested released date</li>"                "<li>Propose collaborations with related artists</li>"                 "</ul>", unsafe_allow_html=True)
+    st.markdown("<ul>"                "<li>AUGUST as our suggested released date</li>"                "<li>Propose collaborations with related artists</li>"                "<li>Look for more features; perform extensive feature engineering and EDA for additional insights</li>"                "</ul>", unsafe_allow_html=True)
 
 
 # In[ ]:
@@ -440,7 +440,7 @@ elif add_selectbox == 'Classifying the Genre':
             "<li>Classified into nine (9) different types of genre</li>"\
              "</ul>", unsafe_allow_html=True)
     
-    image = Image.open('genre.PNG').convert('RGB')
+    image = Image.open('genre.png').convert('RGB')
     st.image(image, caption='', width=400, height=200)
     
     st.write('Training the KNN Model')
@@ -460,19 +460,19 @@ elif add_selectbox == 'Classifying the Genre':
     st.markdown("<ul>"            "<li>[4, 5, 8, 10]</li>"             "</ul>", unsafe_allow_html=True)
     
     st.write('K-Fold = 10')
-    image = Image.open('knn10.PNG').convert('RGB')
-    st.image(image, caption='', width=200, height=200)
+    image = Image.open('knn10.png').convert('RGB')
+    st.image(image, caption='', width=400, height=400)
     
     st.write('K-Fold = 4')
-    image = Image.open('knn4.PNG').convert('RGB')
+    image = Image.open('knn4.png').convert('RGB')
     st.image(image, caption='', width=200, height=200)
     
     st.write('K-Fold = 5')
-    image = Image.open('knn5.PNG').convert('RGB')
+    image = Image.open('knn5.png').convert('RGB')
     st.image(image, caption='', width=200, height=200)
     
     st.write('K-Fold = 8')
-    image = Image.open('knn8.PNG').convert('RGB')
+    image = Image.open('knn8.png').convert('RGB')
     st.image(image, caption='', width=200, height=200)
     
 
